@@ -11,6 +11,7 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
   
 }
 
@@ -455,7 +456,7 @@ body {
   #leftImages, #midImages, #rightImages {
     width: fit-content;
     float: none;
-    margin-right: 0vw;
+    margin-right: none;
   
   }
   
