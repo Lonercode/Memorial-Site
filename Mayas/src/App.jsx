@@ -30,6 +30,7 @@ function Nav(){
         <a className="nav-link" href="/messages"><b>MESSAGES</b></a>
         <a className="nav-link" href="/gallery"><b>GALLERY</b></a>
         <a className="nav-link" href="/family"><b>FAMILY MESSAGES</b></a>
+        <a className="nav-link" href="\files\program.pdf" download="Engr_Adoyi_Burial_program"><b>PROGRAM PDF</b></a>
       </div>
     </div>
   </div>
