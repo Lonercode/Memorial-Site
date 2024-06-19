@@ -399,7 +399,7 @@ body {
   }
 
   .navbar-nav a{
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   .navbar-nav a:hover {
@@ -529,10 +529,12 @@ body {
 
  }
 
+ /* Tablets */
 
  @media (min-width: 751px) and (max-width:1080px){
   body {
     background: none;
+    overflow-x: hidden;
   }
   .quote, .quote2{
     display: none;
@@ -545,11 +547,11 @@ body {
   }
 
   #center{
-    font-size: 3vw;
+    font-size: 6vw;
   }
 
   .container-fluid .navbar-brand {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   .slider {
@@ -570,7 +572,7 @@ body {
   }
 
   .navbar-nav a{
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   .navbar-nav a:hover {
