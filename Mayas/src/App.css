@@ -425,6 +425,7 @@ body {
   }
 
   .pictures {
+    overflow-x: hidden;
     z-index: 3;
     position: none;
     padding: 2rem;
