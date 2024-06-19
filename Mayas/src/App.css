@@ -52,7 +52,7 @@ body {
 
 
 .slider {
-  
+  overflow-y: hidden;
   width: 100vw;
   height: 100vh;
   position: relative;
