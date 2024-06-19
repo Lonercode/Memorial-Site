@@ -1,0 +1,711 @@
+#root {
+  margin:0;
+  padding:0;
+  
+}
+
+@keyframes appear{
+  from { opacity: 0}
+  to { opacity: 1}
+}
+
+body {
+  margin: 0;
+  
+}
+
+
+.container-fluid {
+ background-color: black;
+ padding-top: 10vh;
+ margin-top: -20vh;
+  
+}
+
+.container-fluid a {
+  color: white;
+  
+}
+
+.navbar-nav a:hover {
+  background-color: aqua;
+  border-radius: 0.6vw;
+}
+.container-fluid .navbar-brand {
+  color:white;
+  padding-right: 10vw;
+  font-family: cursive;
+  font-size: 1.2vw;
+  
+
+}
+
+
+.container-fluid .navbar-brand:hover{
+  color:white;
+  cursor:auto;
+}
+
+.nav-link {
+  margin-left: 5vw;
+}
+
+
+.slider {
+  
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  z-index: 1;
+}
+
+.slider .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: slide 10s ;
+  animation-iteration-count: 1;
+  z-index: 1;
+
+
+}
+
+.slider .slide:nth-child(1){
+  background:  linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255, 0.7)), url('\\images\\dadMain.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-delay: -0;  
+  background-size: contain;
+  z-index: 1;
+}
+
+.slider .slide:nth-child(2){
+  background:  linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255, 0.7)), url('\\images\\dad1.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-delay: -2s;
+  background-size: contain;
+  z-index: 1;
+  
+}
+
+.slider .slide:nth-child(3){
+  background:  linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255, 0.7)), url('\\images\\dad2.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-delay: -4s;
+  background-size: contain;
+  z-index: 1;
+  
+}
+
+@keyframes slide {
+  0%, 15%, 100% {
+    transform: translateX(100%);
+    animation-timing-function: ease;
+  }
+  20% {
+    transform: translateX(-100%);
+    animation-timing-function:ease;
+  }
+  95% {
+    transform: translateX(100%);
+    animation-timing-function: ease;
+  }
+}
+
+#center{
+  font-size: 1.6vw;
+}
+
+.wholeApp{
+  position: relative;
+  
+}
+
+
+
+.bodyGuy{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: -40vh;
+  text-align: center;
+  z-index: 3;
+  position: relative;
+  
+
+}
+
+.bio  {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  margin-top: 0vh;
+  z-index: 3;
+  position: relative;
+  padding: 15rem;
+  padding-bottom: 6vh;
+  justify-content: center;  
+  background:  linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255, 0.7)), url('\\images\\dad2.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-color: white;
+  text-align: justify;
+}
+
+
+.bio h3 {
+  text-align: center;
+}
+
+.quote {
+  font-family: cursive;
+  font-size: large;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: -60vh;
+  text-align:left;
+  z-index: 3;
+  position: relative;
+  width: 20vw;
+  padding-left: 3vw;
+
+}
+
+.quote2 {
+  font-family: cursive;
+  font-size: large;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 12vh;
+  float: right;
+  z-index: 3;
+  position: relative;
+  width: 20vw;
+  padding-right: 3vw;
+
+}
+
+
+.pictures {
+  z-index: 3;
+  position: relative;
+  padding: 9rem;
+  padding-left: 3vw;
+  padding-top: 0vw;
+  background-image: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  margin-top: 0vh;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  
+}
+
+.pictures img {
+  width: 30vw;
+  height:100vh;
+  border-radius: 6vw;
+  margin-top: 2vw;
+  object-fit:cover;
+  padding: 3rem;
+}
+
+#leftImages {
+  width: 30vw;
+  float: left;
+  margin-right: 2vw;
+
+}
+
+#midImages {
+  width: 30vw;
+  margin-right: 2vw;
+}
+
+#rightImages {
+  width: 30vw;
+  float: right;
+}
+
+.messages, .familyMessages {
+  z-index: 3;
+  position: relative;
+  padding: 0.5rem;
+  padding-top: 7vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background:  linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255, 0.5)), url('\\images\\biblerosary.jpg');
+  text-align: center;
+  margin-top: 0vh;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.leftMessages p {
+  background-color: whitesmoke;
+  width: 32vw;
+  float: left;
+  margin-right: 1vw;
+  border-radius: 2vw;
+  padding: 1rem;
+  animation-duration: 2s;
+  opacity: 1;
+  
+
+}
+
+.midMessages p{
+  width: 32vw;
+  margin-right: 1vw;
+  background-color: whitesmoke;
+  border-radius: 2vw;
+  padding: 1rem;
+  animation-duration: 5s;
+  
+
+}
+
+.rightMessages p{
+  width: 32vw;
+  float: right;
+  background-color: whitesmoke;
+  border-radius: 2vw;
+  padding: 1rem;
+  animation-duration: 8s;
+  text-align: center;
+  height: fit-content;
+ 
+
+}
+
+.leftMessages, .midMessages, .rightMessages {
+  text-align: center;
+}
+
+.leftMessages p, .rightMessages p, .midMessages p{
+  animation-name: appear;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.4vw;
+  height: 43vh;
+}
+
+
+.familyMessages {
+ 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+#name {
+  float: right;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.firstMessage p, .secondMessage p, .thirdMessage p, .fourthMessage p, .fifthMessage p{
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.firstMessage, .secondMessage, .thirdMessage, .fourthMessage, .fifthMessage {
+  background-color: whitesmoke;
+  width: 60vw;
+  border-radius: 2vw;
+  padding: 1rem;
+  animation-duration: 2s;
+  opacity: 1;
+  margin-bottom: 7vh;
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+  opacity: 1;
+  
+
+}
+
+.secondMessage {
+ animation-delay: 1s;
+}
+
+.thirdMessage {
+  animation-delay: 2s;
+ }
+
+ .fourthMessage {
+  animation-delay: 3s;
+ }
+
+ .fifthMessage {
+  animation-delay: 4s;
+ }
+
+ /* Mobiles */
+
+ @media (max-width: 750px){
+
+  body {
+    background: none;
+  }
+  .quote, .quote2{
+    display: none;
+  }
+
+  .container-fluid {
+   padding-bottom: 3vh;
+  }
+
+  #center{
+    font-size: 3vw;
+  }
+
+  .container-fluid .navbar-brand {
+    font-size: 2vw;
+  }
+
+  .slider {
+    margin-top: -10vh;
+  }
+
+  .bodyGuy{
+    width: 60vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50vh;
+  }
+
+  .navbar-toggler-icon{
+    background-color: white;
+    border-radius: 2vw;
+  }
+
+  .navbar-nav a{
+    font-size: 2vw;
+  }
+
+  .navbar-nav a:hover {
+   padding-left: 2vw;
+  }
+  
+  .bio  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    margin-top: 0vh;
+    z-index: 3;
+    position: relative;
+    padding: 2rem;
+    padding-bottom: 6vh;
+    justify-content: center;  
+    background:  linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255, 0.7)), url('\\images\\dad2.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: white;
+    text-align: justify;
+  }
+
+  .pictures {
+    z-index: 3;
+    position: none;
+    padding: 2rem;
+    padding-left: 0vw;
+    padding-top: 0vw;
+    position: none;
+    background-color: white;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    
+  }
+  
+
+  .pictures img {
+    width: fit-content;
+    height:100vh;
+    border-radius: 1vw;
+    margin-top: 6vw;
+    object-fit:cover;
+    padding: 3rem;
+  }
+
+  #leftImages, #midImages, #rightImages {
+    width: fit-content;
+    float: none;
+    margin-right: 0vw;
+  
+  }
+  
+  .messages{
+  z-index: 3;
+  position: relative;
+  padding: 0.5rem;
+  padding-top: 7vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background:  linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255, 0.5)), url('\\images\\biblerosary.jpg');
+  text-align: center;
+  margin-top: 0vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .leftMessages p {
+    background-color: whitesmoke;
+    width: 60vw;
+    float: none;
+    margin-right: 0vw;
+    border-radius: 2vw;
+    padding: 2rem;
+    animation-duration: 2s;
+    opacity: 1;
+    text-align: center;
+    font-size: 3vw;
+    height: 30vh;
+    
+  
+  }
+  
+  .midMessages p{
+    width: 60vw;
+    margin-right: 1vw;
+    background-color: whitesmoke;
+    border-radius: 2vw;
+    padding: 2rem;
+    animation-duration: 5s;
+    font-size: 3vw;
+    height: 30vh;
+  
+  }
+  
+  .rightMessages p{
+    width: 60vw;
+    float: none;
+    background-color: whitesmoke;
+    border-radius: 2vw;
+    padding: 2rem;
+    animation-duration: 8s;
+    text-align: center;
+    height: 30vh;
+    font-size: 3vw;
+  
+  }
+  
+  .leftMessages, .midMessages, .rightMessages {
+    text-align: center;
+  }
+  
+  .firstMessage, .secondMessage, .thirdMessage, .fourthMessage, .fifthMessage {
+    width: 90vw;
+  
+  }
+
+ }
+
+
+ @media (min-width: 751px) and (max-width:1080px){
+  body {
+    background: none;
+  }
+  .quote, .quote2{
+    display: none;
+  }
+
+  .container-fluid {
+   padding-bottom: 3vh;
+   margin-top: -10vh;
+   padding-top: 5vh;
+  }
+
+  #center{
+    font-size: 3vw;
+  }
+
+  .container-fluid .navbar-brand {
+    font-size: 2vw;
+  }
+
+  .slider {
+    margin-top: -8vh;
+  }
+
+  .bodyGuy{
+    width: 60vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50vh;
+  }
+
+  .navbar-toggler-icon{
+    background-color: white;
+    border-radius: 1vw;
+  }
+
+  .navbar-nav a{
+    font-size: 2vw;
+  }
+
+  .navbar-nav a:hover {
+   padding-left: 2vw;
+  }
+  
+  .bio  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    margin-top: 0vh;
+    z-index: 3;
+    position: relative;
+    padding: 2rem;
+    padding-bottom: 6vh;
+    justify-content: center;  
+    background:  linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255, 0.7)), url('\\images\\dad2.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: white;
+    text-align: justify;
+  }
+
+  .pictures {
+    z-index: 3;
+    position: none;
+    padding: 2rem;
+    padding-left: 0vw;
+    padding-top: 0vw;
+    position: none;
+    background-color: white;
+    margin-top: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    
+  }
+  
+
+  .pictures img {
+    width: fit-content;
+    height:100vh;
+    border-radius: 1vw;
+    margin-top: 6vw;
+    object-fit:cover;
+    padding: 3rem;
+  }
+
+  #leftImages, #midImages, #rightImages {
+    width: fit-content;
+    float: none;
+    margin-right: 0vw;
+  
+  }
+  
+  .messages{
+  z-index: 3;
+  position: relative;
+  padding: 0.5rem;
+  padding-top: 7vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background:  linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255, 0.5)), url('\\images\\biblerosary.jpg');
+  text-align: center;
+  margin-top: 0vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .leftMessages p {
+    background-color: whitesmoke;
+    width: 60vw;
+    float: none;
+    margin-right: 0vw;
+    border-radius: 2vw;
+    padding: 2rem;
+    animation-duration: 2s;
+    opacity: 1;
+    text-align: center;
+    font-size: 3vw;
+    height: 40vh;
+    
+  
+  }
+  
+  .midMessages p{
+    width: 60vw;
+    margin-right: 1vw;
+    background-color: whitesmoke;
+    border-radius: 2vw;
+    padding: 2rem;
+    animation-duration: 5s;
+    font-size: 3vw;
+    height: 40vh;
+  
+  }
+  
+  .rightMessages p{
+    width: 60vw;
+    float: none;
+    background-color: whitesmoke;
+    border-radius: 2vw;
+    padding: 2rem;
+    animation-duration: 8s;
+    text-align: center;
+    height: 40vh;
+    font-size: 3vw;
+  
+  }
+  
+  .leftMessages, .midMessages, .rightMessages {
+    text-align: center;
+  }
+  
+  .firstMessage, .secondMessage, .thirdMessage, .fourthMessage, .fifthMessage {
+    width: 90vw;
+  
+  }
+
+ }
+
+
+ /* Smaller Desktops */
+
+ @media (min-width: 2001px) and (max-width: 3000px){
+  .container-fluid {
+    padding-bottom: 3vh;
+    margin-top: -10vh;
+    padding-top: 5vh;
+   }
+}

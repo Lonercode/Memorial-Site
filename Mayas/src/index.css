@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+
+
+body {
+  margin: 0;
+  padding-top:100px;
+  min-width: 320px;
+  background:  linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255, 0.6)), url('\\images\\biblerosary.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  
+  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
