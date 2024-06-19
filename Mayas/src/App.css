@@ -652,7 +652,7 @@ body {
 
   .leftMessages p {
     background-color: whitesmoke;
-    width: 60vw;
+    width: 80vw;
     float: none;
     margin-right: 0vw;
     border-radius: 2vw;
@@ -667,7 +667,7 @@ body {
   }
   
   .midMessages p{
-    width: 60vw;
+    width: 80vw;
     margin-right: 1vw;
     background-color: whitesmoke;
     border-radius: 2vw;
@@ -679,7 +679,7 @@ body {
   }
   
   .rightMessages p{
-    width: 60vw;
+    width: 80vw;
     float: none;
     background-color: whitesmoke;
     border-radius: 2vw;
