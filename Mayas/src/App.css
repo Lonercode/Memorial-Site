@@ -447,7 +447,7 @@ body {
     height:100vh;
     border-radius: 1vw;
     margin-top: 6vw;
-    object-fit:cover;
+    object-fit:contain;
     padding: 3rem;
   }
 
